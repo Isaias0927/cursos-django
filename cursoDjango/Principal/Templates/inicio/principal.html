@@ -1,17 +1,15 @@
-{% extends 'inicio/encabezado.html' %}
-{% block titulo %} Principal{% endblock %}
+<link rel="stylesheet" href="../../static/inicio/css/styles.css">
+{% extends "inicio/encabezado.html" %}
 
 {% block contenido %}
-<div class="principal">
+<div class="container">
 
     <h1>BIENVENIDO AL PORTAL</h1>
-        
-    <p>El objetivo principal de este portal es mostrar los datos de los alumnos registrados por el usuario administrador y el curso que tomaran </p>   
 
     <!-- Tabla de Alumnos -->
-    <table class="principal">   
+    <table class="table table-bordered tablestriped mt-4">   
         <thead>
-            <tr class="principal">
+            <tr>
                 <th>Foto</th>
                 <th>Matricula</th>
                 <th>Nombre</th>
@@ -25,10 +23,10 @@
                 <td class="text-center">
                     <img src="" alt="" class="img-media">
                 </td>
-                <td class="text-semibold">UTM1234TIC</td>
-                <td class="muted">Nathalia</td>
-                <td class="muted">Tic</td>
-                <td class="muted">Matutino</td>
+                <td class="text-semibold"></td>
+                <td class="muted"></td>
+                <td class="muted"></td>
+                <td class="muted"></td>
             </tr>
         </tbody>
     </table>

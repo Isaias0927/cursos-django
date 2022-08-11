@@ -1,8 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 
-def principal(request):  
+
+
+def principal(request):
+    
     return render( request, "inicio/principal.html")
 
 def cursos(request):
@@ -10,3 +13,4 @@ def cursos(request):
     
 def contacto(request):
     return render( request, "inicio/contacto.html")
+
